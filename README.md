@@ -9,4 +9,9 @@ A project that is designed to learn how to code a landing page in HTML and decor
 
 
 
-Credits: The Odin Project - Tutorial Images
+Credits: 
+  The Odin Project - Tutorial Images, Odin Project logo
+  Web Hypertext Application Technology Working Group - HTML logo
+  CSS Working Group - CSS logo
+  Microsoft - VScode logo
+  Google - Chrome logo

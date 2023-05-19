@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-container {
+  display: flex;
+}
+
+.top-logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.middle-logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quote-container {
+  display: flex;
+}
+
+.github-container {
+  display: flex;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
+.small-logo {
+  width: 50px;
+}

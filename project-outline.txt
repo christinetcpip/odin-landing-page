@@ -1,0 +1,49 @@
+Project outline which details which steps I need to take to create a landing page.
+
+1. Write text for header, 4 containers, and footer. DONE
+
+2. Gather images for landing page, and place them in the appropriate locations. DONE
+
+3. Add buttons in the appropriate locations.
+
+4. Decorate with css.
+
+5. Use flexbox to separate header, 4 containers, and footer.
+
+6. Organize flexbox containers.
+
+7. Finish!
+
+
+Text for landing page:
+
+Header: Logo image - Home - About - Contact
+
+  Image found
+
+Container 1:
+
+  Main text: Christine's Landing Page
+  Secondary text: This is my first landing page, a project from The Odin Project. It may not be perfect, but it will show that I know how to use flexbox combined with HTML and CSS.
+
+  Image found
+
+Container 2:
+  
+  Main text: Languages and Programs Used
+  Secondary text: HTML with HTML logo - CSS with CSS logo - VSCode with VSCode logo - github with github logo
+
+  Images found
+
+Container 3:
+
+  Quote: “Before you marry a person, you should first make them use a computer with slow Internet to see who they really are.” —Will Ferrell
+
+Container 4:
+
+  Main text: Follow me on github.
+  Secondary text: Here is where I store all of my progects that I've worked on.
+
+  Image found
+
+Footer: Copyright © Christine Martin 2023

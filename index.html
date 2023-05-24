@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <title>Odin Landing Page</title>
   <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="header">
@@ -15,8 +18,11 @@
     </div>
   </div>
   <div class="title-container">
-    <h1>Christine's Landing Page</h1>
-    <p>This is my first landing page, a project from The Odin Project. It may not be perfect, but it will show that I know how to use flexbox combined with HTML and CSS.</p>
+    <div class="title">
+      <h1>Christine's Landing Page</h1>
+      <p>This is my first landing page, a project from The Odin Project. It may not be perfect, but it will show that I know how to use flexbox combined with HTML and CSS.</p>
+    </div>
+    <img class="odin" src="./images/odin-logo.png" alt="Logo for The Odin Project website">
 
   </div>
   <div class="top-logo-container">
@@ -43,15 +49,19 @@
   </div>
   <div class="quote-container">
     <p class="quote-text">
-      "Before you marry a person, you should first make them use a computer with slow Internet to see who they really are.”
+      Before you marry a person, you should first make them use a computer with slow Internet to see who they really are.
     </p>
-    <p>-Will Ferrell</p>
+    <p class="quote-author">-Will Ferrell</p>
 
   </div>
   <div class="github-container">
-    <h3>Follow me on github.</h3>
-    <p>Here is where I store all of my progects that I've worked on.</p>
+    <div class="github-text-container">
+      <h3>Follow me on github.</h3>
+        <p>Here is where I store all of my projects that I've worked on.</p>
+        </div>
+    <div class="github-logo-container">
       <a href="#"><img class="small-logo" src="./images/github-logo.png" alt="Github logo which links to my github"></a>
+    </div>
 
   </div>
   <div class="footer">

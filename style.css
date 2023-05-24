@@ -1,30 +1,65 @@
 body {
   display: flex;
   flex-direction: column;
+  /* justify-content: space-between; */
+  border: 5px solid red;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  border: 5px solid red;
+  background-color: blue;
 }
 .links {
   display: flex;
   justify-content: space-between;
+  border: 5px solid red;
 }
 
 .title-container {
+  padding: 50px;
+  gap: 50px;
   display: flex;
+  justify-content: space;
+  align-items: center;
+  border: 5px solid red;
+  background-color: yellow;
+}
+.title {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 5px solid red;
+
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #F9FAF8;
+}
+
+.odin {
+  height: 300px;
+  border: 5px solid red;
 }
 
 .top-logo-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 50px;
+  border: 5px solid red;
+  background-color: green;
 }
 
 .middle-logo-container {
   display: flex;
   justify-content: center;
+  gap: 50px;
+  border: 5px solid red;
 }
 
 .bottom-logo-container {
@@ -32,14 +67,56 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  border: 5px solid red;
 }
 
 .quote-container {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border: 5px solid red;
+  background-color: purple;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+  color: #1F2937;
+  margin: 0px;
+  width: 500px;
+  border: 5px solid red;
+
+}
+
+.quote-author {
+  align-self: center;
+  width: 500px;
+  border: 5px solid red;
+  text-align: right;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin: 0px;
 }
 
 .github-container {
   display: flex;
+  justify-content: center;
+  border: 5px solid red;
+  background-color: orange;
+}
+
+.github-text-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+}
+
+.github-logo-container {
+  align-self: center;
 }
 
 .logo {
@@ -49,4 +126,10 @@ body {
 
 .small-logo {
   width: 50px;
+}
+
+.footer {
+  text-align: center;
+  border: 5px solid red;
+  background-color: blue;
 }

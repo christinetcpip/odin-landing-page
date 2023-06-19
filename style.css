@@ -38,12 +38,17 @@ a {
   background-color: #1F2937;
   padding: 20px 100px;
 }
-.links {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 50px;
-}
+
+  .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .my-logo {
+    width: 150px;
+  }
 
 .title-container {
   padding: 50px 200px;
@@ -52,23 +57,23 @@ a {
   align-items: center;
   background-color: #1F2937;
 }
-.title {
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0;
+  .title {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
 
-}
+  }
 
-.title-text {
-  color: #F9FAF8;
-  font-family: 'Roboto', sans-serif;
-}
+  .title-text {
+    color: #F9FAF8;
+    font-family: 'Roboto', sans-serif;
+  }
 
-.odin {
-  height: 300px;
-}
+  .odin {
+    height: 300px;
+  }
 
 .top-logo-container {
   display: flex;
@@ -77,22 +82,30 @@ a {
   padding: 50px;
 }
 
-.middle-logo-container {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-}
+  .middle-logo-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
 
-.bottom-logo-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
+    .bottom-logo-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
 
-.logo-text {
-  font-family: 'Roboto', sans-serif;
-}
+      .logo {
+        width: 150px;
+        height: 150px;
+        padding: 10px;
+        border-radius: 10px;
+        border: 5px solid #3882F6;
+      }
+
+      .logo-text {
+        font-family: 'Roboto', sans-serif;
+      }
 
 .quote-container {
   display: flex;
@@ -103,25 +116,25 @@ a {
   background-color: #E5E7EB;
 }
 
-.quote-text {
-  font-size: 36px;
-  font-style: italic;
-  font-weight: 100;
-  font-family: 'Roboto', sans-serif;
-  color: #1F2937;
-  margin: 0px;
-  width: 500px;
+  .quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    color: #1F2937;
+    margin: 0px;
+    width: 500px;
 
-}
+  }
 
-.quote-author {
-  align-self: center;
-  width: 500px;
-  text-align: right;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  margin: 0px;
-}
+  .quote-author {
+    align-self: center;
+    width: 500px;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin: 0px;
+  }
 
 .github-container {
   display: flex;
@@ -133,41 +146,28 @@ a {
   border-radius: 10px;
 }
 
-.github-text-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  width: 500px;
-}
-.github-logo-container {
-  align-self: center;
-}
+  .github-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 500px;
+  }
+    .github-text {
+      font-family: 'Roboto', sans-serif;
+    }
+    .github-logo-container {
+      align-self: center;
+    }
 
-.logo {
-  width: 150px;
-  height: 150px;
-  padding: 10px;
-  border-radius: 10px;
-  border: 5px solid #3882F6;
-}
-
-.my-logo {
-  width: 150px;
-}
-
-.small-logo {
-  width: 50px;
-}
+      .small-logo {
+        width: 50px;
+      }
 
 .footer {
   text-align: center;
   background-color: #1F2937;
   color: #E5E7EB;
   padding: 25px;
-  font-family: 'Roboto', sans-serif;
-}
-
-.github-text {
   font-family: 'Roboto', sans-serif;
 }
